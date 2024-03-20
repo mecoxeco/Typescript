@@ -68,3 +68,5 @@ Rota para agrupar tarefas por categoria.
 Rota para encontrar a tarefa mais antiga de um usuário.
 Observação:
 Estas rotas podem ser implementadas utilizando os métodos .map, .filter, .resume, .some e outros métodos de manipulação de array para alcançar as funcionalidades desejadas, agregando complexidade média a difícil ao projeto. Certifique-se de implementar as devidas verificações de segurança e validação dos dados em cada rota.
+
+https://dev.to/rodrigozan/criando-uma-api-nodejs-com-express-e-typescript-4a24

@@ -1,0 +1,12 @@
+*.js
+*.js.map
+
+node_modules/
+
+.env
+
+*.log
+
+.cache/
+
+dist/

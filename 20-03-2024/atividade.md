@@ -6,21 +6,18 @@ check-list:
 [] - Entender a atividade, isso envolve ver a atividade
 [] - Instalar as dependencias
 [] - Opcional - Criar um dockerfile e um docker-compose.yml pra criar o container do banco escolhido
-[] - Criar as invalidade
-[] - Da um check se o servidor está funcionando
+[] - Dar um check se o servidor está funcionando
 [] - Criar a service para a entidade escolhida, e fazer o CRUD
 [] - Fazer a controller
 [] - Criar as rotas no arquivo de mortas
 [] - Testar as rotas
 [] - Partir para as rotas com regra de negócio
-[] - Implementa alguns quest
 
 	
 Entidades:
 
 - Usuário:
-	Atributos: ID, nome de usuário, peso, senha, e-mail.
-	
+	Atributos: ID, username, peso, senha, e-mail.
 
 - Tarefa:
 	Atributos: ID, título, descrição, data de criação, data de conclusão, tipo, categoria (opcional), status (pendente, em andamento, concluída), e usuário associado.
@@ -31,9 +28,10 @@ Entidades:
 Requisitos das Rotas (OPICIONAL - FAÇA POR ÚLTIMO):
 
 Autenticação:
+	
+	Rota de registro de usuário.
+	Rota de login de usuário.
 
-Rota de registro de usuário.
-Rota de login de usuário.
 
 Tarefas:
 
@@ -66,8 +64,6 @@ Rota para calcular a média de conclusão das tarefas.
 Rota para encontrar a tarefa com a descrição mais longa.
 Rota para agrupar tarefas por categoria.
 Rota para encontrar a tarefa mais antiga de um usuário.
-Observação:
-Estas rotas podem ser implementadas utilizando os métodos .map, .filter, .resume, .some e outros métodos de manipulação de array para alcançar as funcionalidades desejadas, agregando complexidade média a difícil ao projeto. Certifique-se de implementar as devidas verificações de segurança e validação dos dados em cada rota.
 
-https://dev.to/rodrigozan/criando-uma-api-nodejs-com-express-e-typescript-4a24
-https://www.typescriptlang.org/docs/handbook/enums.html#handbook-content
+Observação:
+Estas rotas podem ser implementadas utilizando os métodos .map, .filter, .resume, .some e outros métodos de manipulação de array para alcançar as funcionalidades desejadas, agregando complexidade média a difícil ao projeto. Certifique-se de implementar as devidas verificações de segurança e validação dos dados em cada rota

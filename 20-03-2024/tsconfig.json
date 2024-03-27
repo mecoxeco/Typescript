@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es6",                    /* ECMAScript */
+      "module": "commonjs",               
+      "outDir": "./dist",                 
+      "strict": true,                     
+      "esModuleInterop": true,            /* Módulos ES6 */
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "src/**/*.ts"                      /* Coloca tudo (que for .ts) na SRC */
+    ],
+    "exclude": [
+      "node_modules"                     /* Excluir node_modules */
+    ]
+  }
+  

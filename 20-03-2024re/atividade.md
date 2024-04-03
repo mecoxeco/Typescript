@@ -1,7 +1,7 @@
 Express ou Fastify
 
 check-list:
-[] - Entender a atividade, isso envolve ver a atividade
+[x] - Entender a atividade, isso envolve ver a atividade
 [] - Instalar as dependencias
 [] - Opcional - Criar um dockerfile e um docker-compose.yml pra criar o container do banco escolhido
 [] - Dar um check se o servidor está funcionando

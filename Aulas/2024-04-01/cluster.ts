@@ -6,10 +6,11 @@ const runPrimaryProcess = () => {
     console.log(`Primary ${process.pid} is running`)
     console.log(`Forking sever with ${processCount} process`)
 
-    for (let index = 0); index < processCount; index++) cluester.fork();
-},
+    for (let index = 0; index < processCount; index++) cluster.fork();
+}
+
 const runWorkerProcess = async () => {
-    await import('/main')
+    await import('./main')
 }
 
 cluster.isPrimary ? runPrimaryProcess() : runWorkerProcess();

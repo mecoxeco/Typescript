@@ -6,7 +6,8 @@
   "scripts": {
     "start": "ts-node ./main.ts",
     "dev": "nodemon ./main.ts",
-    "test": "jest"
+    "test": "jest",
+    "cluster": ""
   },
   "keywords": [],
   "author": "",
